@@ -4,10 +4,11 @@ Spring Bootで手早くメトリクスを確認したい人のための手順
 
 ## 前提
 
-Dockerはホストマシン上にインストール済み
-Spring Bootは構築済み（以下2つを依存関係に追加し、http://localhost:8090/actuator/prometheus等で動作確認済みであること。見て分かる通り、当手順ではホストマシン上でSpringを動かしている）
-1. spring-boot-starter-actuator
-1. micrometer-registry-prometheus
+1. Dockerはホストマシン上にインストール済み
+
+1. Spring Bootは構築済み（以下2つを依存関係に追加し、<http://localhost:8090/actuator/prometheus>等で動作確認済みであること。見て分かる通り、当手順ではホストマシン上でSpringを動かしている）
+>  -  spring-boot-starter-actuator
+>  -  micrometer-registry-prometheus
 
 この手順は以下のqiitaのページを参考にしている。
 
